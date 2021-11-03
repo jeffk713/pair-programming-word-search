@@ -1,4 +1,4 @@
-const transpose = require('./transpose');
+const { transpose } = require('./transpose');
 
 const searchWordInJoinedArr = (arr, testWord) => {
   let result = false;

@@ -1,7 +1,7 @@
 const chai = require('chai');
 const assert = chai.assert;
-const transpose = require('../transpose');
 
+const { transpose } = require('../transpose');
 const { wordSearch } = require('../wordsearch.js');
 
 describe('#wordSearch()', function () {

@@ -1,4 +1,4 @@
-const transpose = function (matrix) {
+exports.transpose = function (matrix) {
   let newMatrix = [];
   let matrixLength = matrix[0].length;
 
@@ -15,4 +15,3 @@ const transpose = function (matrix) {
   return newMatrix;
 };
 
-module.exports = transpose;
